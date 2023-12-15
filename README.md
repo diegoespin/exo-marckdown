@@ -32,7 +32,7 @@ Example:
 
 Example:
 
-Au lieu d'ecrire:
+Au lieu d'écrire:
 
 `section h1, section h2, section h3, section h4, section h5, section h6, 
 article h1, article h2, article h3, article h4, article h5, article h6, 
@@ -41,7 +41,7 @@ nav h1, nav h2, nav h3, nav h4, nav h5, nav h6 {
   color: #BADA55;
 }`
 
-On mettrais plutot:
+On mettrais plutôt:
 
 `:is(section, article, aside, nav) :is(h1, h2, h3, h4, h5, h6) {
   color: #BADA55;
