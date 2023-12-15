@@ -1,5 +1,7 @@
 # Decouverte de nouvelles proprietés CSS et sélecteurs
+
 ## Clip-path
+
 "La propriété CSS clip-path empêche une portion d'un élément d'être affichée en définissant une région de rognage. Seule la zone spécifique de l'élément à l'intérieur de la région sera affichée, le reste sera masqué". Nous pouvons utiliser cette proprieté por donner de nouvelles formes aux éléments.
 Example:
 Avec le code CSS `clip-path: polygon(50% 0%, 0% 100%, 100% 100%);` nous avons ce resultat ci: [Example clip-path](http://www.cepegra-labs.be/webdesign/fed2023/alexandra/html+css/Untitled.png)
@@ -14,12 +16,17 @@ Avec le code CSS `…img{
     }…`nous avons ce resultat ci: [Example 2 clip-path](http://cepegra-labs.be/webdesign/fed2023/diego/html-css/exo-marckdown/index.html)
 
 ## Scroll-snap-type
+
+"La propriété scroll-snap-type définit la force d'adhérence aux points d'accroche en cas de défilement d'un conteneur"
+
+Example:
 [Example scroll-snap-type](https://discordapp.com/channels/1160117567336222770/1163802451313438803/1185195125173919824)
 
 
 ## :has & :is
 
 ### :has
+
 Le sélecteur :has permet de sélectionner un élément qui contient quelque chose de spécifique, par exemple sélectionner uniquement les div qui contiennent un <p>
 
 Example:
@@ -28,6 +35,7 @@ Example:
 }`
 
 ### :is
+
 "Le sélecteur :is() nous propose de sélectionner plusieurs éléments à cibler sans devoir préciser à chaque fois les éléments parents"
 
 Example:
