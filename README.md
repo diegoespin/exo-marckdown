@@ -4,6 +4,15 @@
 Example:
 Avec le code CSS `clip-path: polygon(50% 0%, 0% 100%, 100% 100%);` nous avons ce resultat ci: [Example clip-path]([https://www.example.com](http://www.cepegra-labs.be/webdesign/fed2023/alexandra/html+css/Untitled.png)http://www.cepegra-labs.be/webdesign/fed2023/alexandra/html+css/Untitled.png)
 
+Example 2:
+Avec le code CSS `…img{
+        width: 900px;
+        clip-path: circle(30%);
+    }…
+    ….polly{
+        clip-path: polygon(0% 0%, 75% 0%, 100% 100%, 25% 100%);
+    }…`nous avons ce resultat ci: [Example 2 clip-path]([https://www.example.com](http://cepegra-labs.be/webdesign/fed2023/diego/html-css/exo-marckdown/index.html)http://cepegra-labs.be/webdesign/fed2023/diego/html-css/exo-marckdown/index.html)
+
 ## Scroll-snap-type
 
 ## :has & :is
